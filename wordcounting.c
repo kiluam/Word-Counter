@@ -3,7 +3,7 @@
 #define ONSTATE 1		/*reading a valid character*/ 
 #define OFFSTATE 0  	/*yet to start reading or just finished reading a valid word*/
 
-void main(){
+void main(){				/*Reads file and prints the number of words*/
 	int wc = 0;				/*word counter*/
 	int state = OFFSTATE;	/*yet to start reading*/
 	char c;					/*I'm the present character*/ 
