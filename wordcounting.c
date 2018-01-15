@@ -15,7 +15,7 @@ void main(){				/*Reads file and prints the number of words*/
 			// printf("%d", c);	/*uncomment if you want to see the words read*/
 		}
 		else if (state == ONSTATE && (c == ' ' || c == '\n' || c == '\t' )){ /*space, newline and tab*/
-			wc++; 				/*update word counter*/
+			++wc; 				/*update word counter*/
 			state = OFFSTATE;
 		}
 	}
