@@ -1,0 +1,1 @@
+﻿The program is helpful when the text editors do not display proper word counds. I use ge**it as text editor and it gives improper word count. For example: If you just write "John's", ge**it will count it as two words !! 
